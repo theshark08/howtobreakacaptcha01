@@ -1,0 +1,27 @@
+This is a demo that was featured at DEFCAMP on the "Atacuri asupra sistemelor de tip CAPTCHA" == "CAPTCHA system attack strategies"
+
+
+
+It features a captcha generator shell script, a decaptcher for it built in c++ and a web php tool to test the performance.
+
+
+generate_captcha.sh
+  generates a random captcha and prints it's json description to stdout
+
+generate_testing_batch.sh
+  generates a large batch of captchas for testing purposes
+
+generate_training_image.sh ; generate_traing_batch.sh
+  generate individual digits for easy separation at training
+
+src/train_model.py
+  creates a data.inl file with the optimum features based on the latest train_model.cpp algorithm and the latest training batch
+
+src/build_decaptcher.sh
+  creates break_captcha in the main directory
+
+
+
+requirements
+  g++ (4.6.x or later recomanded)
+  imagemagick
