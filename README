@@ -1,4 +1,4 @@
-This is a demo that was featured at DEFCAMP on the "Atacuri asupra sistemelor de tip CAPTCHA" == "CAPTCHA system attack strategies"
+This is a demo that was featured at DEFCAMP 2012 @Bucharest (http://defcamp.ro/categorie/defcamp-2012-bucuresti/) on the "Atacuri asupra sistemelor de tip CAPTCHA" == "CAPTCHA system attack strategies"
 
 
 
@@ -25,3 +25,5 @@ src/build_decaptcher.sh
 requirements
   g++ (4.6.x or later recomanded)
   imagemagick
+  python
+  any php webserver will do
